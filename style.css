@@ -677,7 +677,7 @@ footer {
   opacity: 0.8;
 }
 /*media queries*/
-@media (max-width: 59rem) {
+@media only screen and  (max-width: 944px) {
   .music_class .music_cards .class_info {
     grid-template-columns: 1fr;
     height: 30rem;
@@ -695,7 +695,7 @@ footer {
   }
 }
 
-@media (max-width: 47rem) {
+@media only screen and (max-width: 752px) {
   .container nav {
     height: 4rem;
   }
@@ -775,7 +775,7 @@ footer {
   }
 }
 
-@media (max-width: 38rem) {
+@media only screen and (max-width: 608px) {
   .container nav {
     min-height: 5rem;
     /* justify-content: center; */
